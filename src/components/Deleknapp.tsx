@@ -74,7 +74,7 @@ export const DeleknappTrello = ({ feedback }: { feedback: Feedback }): ReactElem
     }
 
     return (
-        <Tooltip content={`Del til team ${selectedTeam} på Slack`}>
+        <Tooltip content={`Del til team ${selectedTeam} på Trello`}>
             <Button
                 variant="tertiary"
                 icon={<TrelloIcon />}
